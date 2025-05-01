@@ -1,0 +1,273 @@
+.titlebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Italiana, Georgia, serif;
+}
+
+.titlebar h2{
+    padding-left: 75px;
+}
+h2{
+    flex: 1;
+    text-align: center;
+    color: #118A06;
+}
+
+.titlebar h3{
+    text-align: right;
+    margin: auto;
+    font-size: 20px;
+}
+
+.nav-container{
+    background-color: #F6F6F6;
+}
+
+.menuBar{
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.menuBar li, a{
+    display: inline;
+    margin-right: 18px;
+    font-family: 'PT sans', Georgia, serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #185e11
+
+}
+
+.hero-container{
+    height: 483px;
+    background-image: url('Images/greenFoodTruck.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.sub-hero{
+    position: absolute;
+    background-color: #1ED90DE6;
+    text-align: center;
+    align-content: center;
+    width: 500px;
+    height: 272px;
+    padding: 24px 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub-hero h2{
+    color: black;
+    margin: 20px 20px;
+    font-size: 45px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    font-weight: 1;
+}
+
+.sub-hero p{
+    color: black;
+    font-family: 'PT sans', Georgia, serif;
+    font-size: 22px;
+}
+
+.order-btn, .schedule-btn-1 {
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 56px;
+    line-height: 56px; /* To vertically center the text */
+    margin: 0 10px; /* Added 'px' to the margin value */
+    border-radius: 5px;
+    border: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none; /* To remove the underline from the anchor tag */
+    cursor: pointer; /* To show a hand cursor when hovering over the button */
+}
+
+.order-btn:hover, .schedule-btn-1:hover {
+    /* Add any hover effects you want, e.g., change the background color */
+    background-color: #333; /* Darker shade for hover effect */
+}
+
+
+.about-container{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    gap: 45px;
+    margin: 0 auto;
+    
+}
+
+.chef-content, .truck-content, .event-content{
+    text-align: left;
+    font-family: 'PT sans', Georgia, serif;
+}
+
+.about-container h2{
+    font-size: 48;
+    position: relative;
+    padding-bottom: 10px;
+    
+}
+
+.about-container h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #c4b8b8;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-1, .about-2, .about-3 {
+    flex: 1;                    
+    max-width: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Fjalla One', sans-serif;            
+}
+
+.about-1 p, .about-2 p, .about-3 p{
+    color: rgb(108, 125, 112);
+}
+
+.menu-grid{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.menu-grid h3{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 32px;
+    color: #118A06;
+}
+
+.menu-container h2{
+    font-size: 48;
+    font-family: 'Fjalla One', sans-serif;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.menu-container h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #c4b8b8;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.food-title, price{
+    
+}
+
+
+.price-list{
+    text-align: center;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;    
+}
+
+.food-items img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+
+.soups-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; /* space between items */
+}
+.sides-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; /* space between items */
+}
+
+.avail-comment{
+    text-align: center;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color: #F6F6F6;
+}
+
+.contact-info{
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.contact-info h2 {
+    text-align: left;
+}
+
+.contact-info button {
+    align-content: left;
+}
+
+.contact-info, .map-container {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.map-container iframe {
+    width: 100%;
+}
+
+.contact-container h2 {
+    font-size: 48px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.schedule-btn {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    margin-right: auto;
+    background-color: #118A06;
+    color: white;
+    width: 200px;
+    height: 56px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+}

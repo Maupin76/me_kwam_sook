@@ -1,0 +1,33 @@
+.nav {
+  background-color: #F6F6F6;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  list-style: none;
+}
+
+.nav__item {
+  margin-right: 18px;
+}
+
+.nav__link {
+  font-family: 'PT Sans', Georgia, serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: #185e11;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav__menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav__item {
+    margin: 10px 0;
+  }
+}

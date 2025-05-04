@@ -1,0 +1,70 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color: #F6F6F6;
+  }
+  
+  .contact__info {
+    margin-left: 150px;
+    font-size: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+  
+  .contact__title {
+    font-size: 48px;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  
+  .contact__subtitle,
+  .contact__text,
+  .contact__location {
+    font-family: 'PT Sans', Georgia, serif;
+  }
+  
+  .contact__button {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    margin-right: auto;
+    background-color: #118A06;
+    color: white;
+    width: 200px;
+    height: 56px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  
+  .contact__map {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+  
+  .contact__iframe {
+    width: 100%;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contact {
+      flex-direction: column;
+    }
+  
+    .contact__info,
+    .contact__map {
+      width: 100%;
+      margin: 0 auto;
+      padding: 10px;
+    }
+  
+    .contact__iframe {
+      height: 300px;
+    }
+  }
+  

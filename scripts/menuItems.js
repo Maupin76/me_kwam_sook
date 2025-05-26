@@ -11,7 +11,7 @@ export const menuItems = [
         title: "Chicken or beef Pad Krapow",
         price: "11.99 - 13.99",
         description: "Minced Pork or chicken, yellow onion, Green Beans, Thai basil, Jalapeno pepper, Thai Seasonings",
-        image: "./Images/padKrapow.webp",
+        image: "./images/padKrapow.webp",
         alt: "Pad Krapow image",
         category: "main"
     },
@@ -19,7 +19,7 @@ export const menuItems = [
         title: "Thai Curry",
         price: "11.99 - 13.99",
         description: "Chicken or Beef, Green Beans, Red Thai Curry",
-        image: "./Images/thaiCurry.webp",
+        image: "./images/thaiCurry.webp",
         alt: "Thai Curry image",
         category: "main"
     },
@@ -27,7 +27,7 @@ export const menuItems = [
         title: "Zucchini Chicken",
         price: "11.99",
         description: "Chicken, Bell Pepper, Zucchini, Peanuts, Sauces",
-        image: "./Images/zucchiniChicken.webp",
+        image: "./images/zucchiniChicken.webp",
         alt: "Zucchini Chicken image",
         category: "main"
     },
@@ -35,7 +35,7 @@ export const menuItems = [
         title: "Thai Cashew Chicken",
         price: "11.99",
         description: "Chicken (Breaded), Bell Pepper, Green Onions, Red Onions, Cashews, Thai Sauces",
-        image: "./Images/thaiCashewChicken.webp",
+        image: "./images/thaiCashewChicken.webp",
         alt: "Thai Cashew Chicken image",
         category: "main"
     },
@@ -43,7 +43,7 @@ export const menuItems = [
         title: "Pineapple Chicken",
         price: "11.99",
         description: "Chicken, Bell Pepper, Onion, Pineapple, Sweet Thai Chili Sauce.",
-        image: "./Images/pineappleChicken.webp",
+        image: "./images/pineappleChicken.webp",
         alt: "Pineapple Chicken image",
         category: "main"
     },
@@ -51,7 +51,7 @@ export const menuItems = [
         title: "Chicken Pad Thai (Tofu or Vegetarian option)",
         price: "11.99",
         description: "Chicken, Pad Thai Noodles, Egg, Green Onion, Tofu, In-house Made Sauce (Peanuts, Lime wedge, and Spicy flakes are separated for your preference)",
-        image: "./Images/chickenPadThai.webp",
+        image: "./images/chickenPadThai.webp",
         alt: "Chicken Pad Thai image",
         category: "main"
     },
@@ -59,7 +59,7 @@ export const menuItems = [
         title: "Shrimp Pad Thai",
         price: "13.99",
         description: "Shrimp, Pad Thai Noodles, Egg, Green Onion, Tofu, In-house Made Sauce (Peanuts, Lime wedge, and Spicy flakes are separated for your preference)",
-        image: "./Images/shrimpPadThai.webp",
+        image: "./images/shrimpPadThai.webp",
         alt: "Shrimp Pad Thai image",
         category: "main"
     },
@@ -67,7 +67,7 @@ export const menuItems = [
         title: "Pad See Eew",
         price: "11.99 - 13.99",
         description: "Chicken or Beef, Pad See Eew Noodles, Green Onion, Gai Lan, Thai Sauce, and seasoning",
-        image: "./Images/padSeeEew.webp",
+        image: "./images/padSeeEew.webp",
         alt: "Pad See Eew",
         category: "main"
     },
@@ -75,7 +75,7 @@ export const menuItems = [
         title: "Chicken Teriyaki Stir-fry (Vegetarian optional)",
         price: "11.99",
         description: "Chicken, Snow Peas, Carrots, Cauliflower, Mushrooms, Cabbage, Soba Noodles, and Teriyaki Sauce.",
-        image: "./Images/ChickenTeriyaki.webp",
+        image: "./images/ChickenTeriyaki.webp",
         alt: "Chicken Teriyaki Stir-fry image",
         category: "main"
     },
@@ -83,7 +83,7 @@ export const menuItems = [
         title: "Beef Teriyaki Stir-Fry",
         price: "13.99",
         description: "Beef, Snow Peas, Carrots, Cauliflower, Mushrooms, Cabbage, Soba Noodles, and Teriyaki Sauce.",
-        image: "./Images/BeefTeriyaki.webp",
+        image: "./images/BeefTeriyaki.webp",
         alt: "Beef Teriyaki Stir-Fry image",
         category: "main"
     },
@@ -91,7 +91,7 @@ export const menuItems = [
         title: "Shrimp & Broccoli",
         price: "13.99",
         description: "Shrimp, Broccoli, Carrots, Seasoning, and Sauce.",
-        image: "./Images/shrimpandbroccoli.webp",
+        image: "./images/shrimpandbroccoli.webp",
         alt: "Shrimp & Broccoli image",
         category: "main"
     },
@@ -99,7 +99,7 @@ export const menuItems = [
         title: "Black Pepper Stir-fry",
         price: "11.99 - 13.99",
         description: "Chicken or Beef, Red Bell Pepper, Yellow Onions, Green Onions, Spiced with Pepper Corn (crushed), Seasoning, and Sauces.",
-        image: "./Images/blackPepper.webp",
+        image: "./images/blackPepper.webp",
         alt: "Black Pepper Stir-fry image",
         category: "main"
     },
@@ -107,7 +107,7 @@ export const menuItems = [
         title: "Vegetarian Stir-Fry (Tofu Optional)",
         price: "11.99 - 13.99",
         description: "Snow Peas, Carrots, Cauliflower, Mushrooms, Seasoning, and Sauces.",
-        image: "./Images/vegitarian.webp",
+        image: "./images/vegitarian.webp",
         alt: "Vegetarian Stir-Fry image",
         category: "main"
     },
@@ -115,7 +115,7 @@ export const menuItems = [
         title: "Drunken Noodle (Pad Kee Mao) (Tofu Optional)",
         price: "11.99 - 13.99",
         description: "Chicken, Shrimp, or Beef, Wide Noodles, Gai Lan, Carrots, Pickled Kachai, Yellow Onion, Jalapeno, Thai Seasoning, and Sauces.",
-        image: "./Images/Drunken Noodle.jpg",
+        image: "./images/Drunken Noodle.jpg",
         alt: "Drunken Noodle image",
         category: "main"
     },
@@ -139,7 +139,7 @@ export const menuItems = [
         title: "Green Thai Curry (Tofu Optional)",
         price: "12.99",
         description: "Chicken, Green Curry, Coconut Milk, Thai Basil, Bell Peppers",
-        image: "./Images/greenCurry.webp",
+        image: "./images/greenCurry.webp",
         alt: "Green Thai Curry image",
         category: "soups"
     },
@@ -147,7 +147,7 @@ export const menuItems = [
         title: "Tom Kha",
         price: "12.99 - 14.99",
         description: "Chicken or Shrimp, Coconut Milk, Lemon Leaf, Tomato, Mushroom, Thai Pepper, Thai seasoning",
-        image: "./Images/tomKha.webp",
+        image: "./images/tomKha.webp",
         alt: "Tom Kha image",
         category: "soups"
     },
@@ -155,7 +155,7 @@ export const menuItems = [
         title: "Tom Yum (Tofu Optional)",
         price: "12.99 - 14.99",
         description: "Chicken or Shrimp, Coconut Milk, Tomato, Lemon leaf, Thai Pepper, Thai Seasoning",
-        image: "./Images/tomYum.webp",
+        image: "./images/tomYum.webp",
         alt: "Tom Yum image",
         category: "soups"
     },
@@ -163,7 +163,7 @@ export const menuItems = [
         title: "Egg Rolls",
         price: "3 for 6.00",
         description: "Pork, Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with In-house made dipping sauce",
-        image: "./Images/eggRolls.webp",
+        image: "./images/eggRolls.webp",
         alt: "Egg Rolls image",
         category: "sides"
     },
@@ -171,7 +171,7 @@ export const menuItems = [
         title: "Spring Rolls",
         price: "3 for 6.00",
         description: "Pork, Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with In-house made dipping sauce",
-        image: "./Images/springRolls.webp",
+        image: "./images/springRolls.webp",
         alt: "Spring Rolls image",
         category: "sides"
     },
@@ -179,7 +179,7 @@ export const menuItems = [
         title: "Chicken Fried Rice",
         price: "11.99",
         description: "Chicken, Rice, Egg, Carrots, Green Onions, Thai Seasoning, Thai Sauces",
-        image: "./Images/ChickenFriedRice.webp",
+        image: "./images/ChickenFriedRice.webp",
         alt: "Chicken Fried Rice image",
         category: "sides"
     },
@@ -187,7 +187,7 @@ export const menuItems = [
         title: "Shrimp Fried Rice",
         price: "13.99",
         description: "Shrimp, Rice, Egg, Carrots, Green Onions, Thai Seasoning, Thai Sauces",
-        image: "./Images/shrimpFriedRice.webp",
+        image: "./images/shrimpFriedRice.webp",
         alt: "Shrimp Fried Rice image",
         category: "sides"
     }

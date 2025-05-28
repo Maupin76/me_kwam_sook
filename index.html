@@ -1,267 +1,163 @@
-<!DOCTYPE html lang=eng>
-<html>
-    <head>
-        <title>Siri's Me kwam Sook Thai Food</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://github.com/google/fonts.git">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siri's Me Kwam Sook Thai Food</title>
+    <link rel="stylesheet" href="./pages/index.css" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-    </head>
-    <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__title-bar">
+        <h1 class="header__title">Siri's ME KWAM SOOK Thai Food</h1>
+        <p class="header__phone">208.965.1944</p>
+      </div>
+    </header>
 
-<!------------ Menu Bar Section --------------->
-        <div class="header-container">
-            <div class="titleBar">
-             <h2>Siri's ME KWAM SOOK Thai Food</h2>
-             <h3>208.965.1944</h3>
-            </div>
+    <!-- Navigation -->
+    <nav class="nav">
+      <ul class="nav__menu">
+        <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+        <li class="nav__item"><a class="nav__link" href="#menu">Menu</a></li>
+        <li class="nav__item">
+          <a
+            class="nav__link"
+            href="https://order.toasttab.com/online/mekwamsook"
+            >Order Online</a
+          >
+        </li>
+        <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+        <li class="nav__item">
+          <a class="nav__link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__content">
+        <h2 class="hero__heading">Authentic and Fresh Thai Food To Go!</h2>
+        <p class="hero__subtext">Find us in a location near you!</p>
+        <a
+          href="https://order.toasttab.com/online/mekwamsook"
+          class="hero__button hero__button_type_order"
+          >Order Online</a
+        >
+        <button class="hero__button hero__button_type_schedule">
+          Our Schedule
+        </button>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu" id="menu">
+      <h2 class="menu__title">Menu</h2>
+      <p class="menu__note">
+        Protein Prices: Chicken - $11.99, Pork - $11.99, Beef - $13.99, Shrimp -
+        $13.99, Crispy Pork - $13.99
+      </p>
+
+      <div class="menu__group menu__group_type_main">
+        <h3 class="menu__subtitle">Main Dishes</h3>
+        <div class="menu__grid" id="main-dishes"></div>
+      </div>
+
+      <div class="menu__group menu__group_type_soups">
+        <h3 class="menu__subtitle">Soups</h3>
+        <div class="menu__grid" id="soups"></div>
+      </div>
+
+      <div class="menu__group menu__group_type_sides">
+        <h3 class="menu__subtitle">Sides</h3>
+        <div class="menu__grid" id="sides"></div>
+      </div>
+
+      <p class="menu__disclaimer">
+        Menu subject to change based on ingredient availability.
+      </p>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="about__title">About Us</h2>
+      <div class="about__content">
+        <div class="about__block about__block_type_chef">
+          <h4 class="about__subtitle">Chef Siri</h4>
+          <p class="about__text">
+            Siri is a seasoned Thai cook with a lifelong passion for creating
+            delicious and authentic dishes. She first discovered her love for
+            cooking at the age of 10 and has been honing her skills ever since.
+            Her expertise has been passed down to her son, whom she began
+            teaching at the tender age of 7. Together, they have cooked for
+            their family-owned restaurant and store, delighting customers with
+            their flavorful creations. Siri's family also owns and operates a
+            successful restaurant in Japan, which has been thriving for over two
+            decades. With her years of experience and dedication to the craft,
+            Siri is a true master of Thai cuisine.
+          </p>
         </div>
-
-        <div class="nav-container">
-            <div class="menuBar">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#menu-section">Menu</a></li>
-                    <li><a href="https://order.toasttab.com/online/mekwamsook">Order Online</a></li>
-                    <li><a href="#about-section">About</a></li>
-                    <li><a href="#contact-section">Contact Us</a></li>
-                </ul>
-            </div>
+        <div class="about__block about__block_type_food">
+          <h4 class="about__subtitle">Amazing Thai Food</h4>
+          <p class="about__text">
+            Our truck is more than just a place to grab lunch. It is a place to
+            try out new dishes created by an amazing Thai chef. The food is
+            created fresh to your order and with authentic flavors of Thailand.
+          </p>
         </div>
-<!------------ Hero Section --------------->
-        <div class="hero-container">
-            <div class="sub-hero">
-                <h2>Authentic and Fresh Thai Food To Go!</h2>
-                <p>Find us in a location near you!</p>
-                <a href="https://order.toasttab.com/online/mekwamsook" class="order-btn" role="button">Order Online</a>
-                <button type="button" class="Schedule-btn-1" href="#">Our Schedule</button>
-            </div>
+        <div class="about__block about__block_type_events">
+          <h4 class="about__subtitle">Events</h4>
+          <p class="about__text">
+            We are currently not available for events at this time. If you would
+            like us to contact you when that changes, please leave us a message.
+          </p>
         </div>
-<!------------ About Section --------------->
-        <div class="About-container" id="about-section">
-            <h2>About Us</h2>
-            <div class="about-content">
-            <div class="about-1">
-                <h4>Chef Siri</h4>
-                <p class="chef-content" id="content"> Siri is a seasoned Thai cook with a lifelong passion for creating delicious 
-                    and authentic dishes. She first discovered her love for cooking at the age of 
-                    10 and has been honing her skills ever since. Her expertise has been passed 
-                    down to her son, whom she began teaching at the tender age of 7. Together, 
-                    they have cooked for their family-owned restaurant and store, delighting 
-                    customers with their flavorful creations. Siri's family also owns and operates 
-                    a successful restaurant in Japan, which has been thriving for over two decades. 
-                    With her years of experience and dedication to the craft, Siri is a true master 
-                    of Thai cuisine.
-                </p>
-        
-            </div>
-            <div class="about-2">
-                <h4>Amazing Thai Food</h4>
-                <p class="truck-content">Our truck is more than just a place to grab lunch. It is a place to try 
-                    out new dishes created by an amazing Thai chef. The food is created fresh 
-                    to your order and with authentic flavors of Thailand.</p>
-            </div>
-            <div class="about-3">
-                <h4>Events</h4>
-                <p class="event-content">We are currently not available for events at this time. If you would like 
-                    us to contact you when that changes, please leave us a message.</p>
-            </div>
+      </div>
+    </section>
 
-            </div>
-        </div>
-<!------------ Menu Section --------------->
-        <div class="menu-container" id="menu-section">
-            <h2>Menu</h2>
-            <p class="price-list">*****Protein Prices: Chicken - $11.99, Pork - $11.99, Beef - $13.99, Shrimp - $13.99, Crispy Pork - $13.99*****</p>
-            <div class="menu-grid">
-                <h3>Main Dishes</h3>
-            <div class="main-container">
-                
-                <div class="food-items">
-                    <img src="./Images/CrispyPork.webp" alt="Crispy Pork Pad Krapow image">
-                        <h4 class="food-title">"Crispy Pork" Pad Krapow</h4>
-                        <p class="price">13.99</p>
-                        <p class="description">Fried Pork Belly, Onions, Gai Lan, Thai Sauces</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/padKrapow.webp" alt="Pad Krapow image">
-                    <h4 class="food-title">Chicken or beef Pad Krapow</h4>
-                    <p class="price">11.99 - 13.99</p>
-                    <p class="description">Minced Pork or chicken, yellow onion, Green Beans, Thai basil, Jalapeno pepper, Thai Seasonings</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/thaiCurry.webp" alt="Thai Curry image">
-                    <h4 class="food-title">Thai Curry</h4>
-                    <p class="price">11.99 - 13.99</p>
-                    <p class="description">Chicken or Beef, Green Beans, Red Thai Curry</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/zucchiniChicken.webp" alt="Zucchini Chicken image">
-                    <h4 class="food-title">Zucchini Chicken</h4>
-                    <p class="price">11.99</p>
-                    <p class="description">Chicken, Bell Pepper, Zucchini, Peanuts, Sauces</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/thaiCashewChicken.webp" alt="Thai Cashew Chicken image">
-                    <h4 class="food-title">Thai Cashew Chicken</h4>
-                    <p class="price">11.99</p>
-                    <p class="description">Chicken (Breaded), Bell Pepper, Green Onions, Red Onions, Cashews, Thai Sauces</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/pineappleChicken.webp" alt="Pineapple Chicken image">
-                    <h4 class="food-title">Pineapple Chicken</h4>
-                    <p class="price">11.99</p>
-                    <p class="description">Chicken, Bell Pepper, Onion, Pineapple, Sweet Thai Chili Sauce.</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/chickenPadThai.webp" alt="Chicken Pad Thai image">
-                    <h4 class="food-title">Chicken Pad Thai (Tofu or Vegetarian option)</h4>
-                    <p class="price">11.99</p>
-                    <p class="description">Chicken, Pad Thai Noodles, Egg, Green Onion, Tofu, In-house Made Sauce(Peanuts, Lime wedge, and Spicy flakes  are separated for your preference)</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/shrimpPadThai.webp" alt="Shrimp Pad Thai image">
-                    <h4 class="food-title">Shrimp Pad Thai</h4>
-                    <p class="price">13.99</p>
-                    <p class="description">Shrimp, Pad Thai Noodles, Egg, Green Onion, Tofu, In-house Made Sauce(Peanuts, Lime wedge, and Spicy flakes are separated for your preference) </p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/padSeeEew.webp" alt="Pad See Eew">
-                    <h4 class="food-title">Pad See Eew</h4>
-                    <p class="price">11.99 - 13.99</p>
-                    <p class="description">Chicken or Beef, Pad See Eew Noodles, Green Onion, Gai Lan , Thai Sauce, and seasoning</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/ChickenTeriyaki.webp" alt="Chicken Teriyaki Stir-fry image">
-                    <h4 class="food-title">Chicken Teriyaki Stir-fry (Vegetarian optional)</h4>
-                    <p class="price">11.99</p>
-                    <p class="description">Chicken, Snow Peas, Carrots, Cauliflower, Mushrooms, Cabbage, Soba Noodles, and Teriyaki Sauce.</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/BeefTeriyaki.webp" alt="Beef Teriyaki Stir-Fry image">
-                    <h4 class="food-title">Beef Teriyaki Stir-Fry</h4>
-                    <p class="price">13.99</p>
-                    <p class="description">Beef, Snow Peas, Carrots, Cauliflower, Mushrooms, Cabbage, Soba Noodles, and Teriyaki Sauce.</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/shrimpandbroccoli.webp" alt="Shrimp & Broccoli image">
-                    <h4 class="food-title">Shrimp & Broccoli</h4>
-                    <p class="price">13.99</p>
-                    <p class="description">Shrimp, Broccoli, Carrots, Seasoning, and Sauce.</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/blackPepper.webp" alt="Black Pepper Stir-fry image">
-                    <h4 class="food-title">Black Pepper Stir-fry</h4>
-                    <p class="price">11.99 - 13.99</p>
-                    <p class="description">Chicken or Beef, Red Bell Pepper, Yellow Onions, Green Onions, Spiced with Pepper Corn (crushed), Seasoning, and Sauces.</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/vegitarian.webp" alt="Vegetarian Stir-Fry image">
-                    <h4 class="food-title">Vegetarian Stir-Fry (Tofu Optional)</h4>
-                    <p class="price">11.99 - 13.99</p>
-                    <p class="description">Snow Peas, Carrots, Cauliflower, Mushrooms, Seasoning, and Sauces.</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/Drunken Noodle.jpg" alt="Drunken Noodle image">
-                    <h4 class="food-title">Drunken Noodle (Pad Kee Mao) (Tofu Optional)</h4>
-                    <p class="price">11.99 - 13.99</p>
-                    <p class="description">Chicken, Shrimp, or Beef, Wide Noodles, Gai Lan, Carrots, Pickled Kachai, Yellow Onion, Jalapeno, Thai Seasoning, and Sauces.</p>
-                </div>
-                
-            </div>
-
-            <h3>Soups</h3>
-            <div class="soups-container">
-                <div class="food-items">
-                    <img src="./Images/greenCurry.webp" alt="Green Thai Curry image">
-                    <h4 class="food-title">Green Thai Curry (Tofu Optional)</h4>
-                    <p class="price">12.99</p>
-                    <p class="description">Chicken, Green Curry, Coconut Milk, Thai Basil, Bell Peppers</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/tomKha.webp" alt="Tom Kha image">
-                    <h4 class="food-title">Tom Kha</h4>
-                    <p class="price">12.99 - 14.99</p>
-                    <p class="description">Chicken or Shrimp, Coconut Milk, Lemon Leaf, Tomato, Mushroom, Thai Pepper, Thai seasoning</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/tomYum.webp" alt="Tom Yum image">
-                    <h4 class="food-title">Tom Yum (Tofu Optional)</h4>
-                    <p class="price">12.99 - 14.99</p>
-                    <p class="description">Chicken or Shrimp, Coconut Milk, Tomato, Lemon leaf, Thai Pepper, Thai Seasoning</p>
-                </div>
-            </div>
-
-            <h3>Sides</h3>
-            <div class="sides-container">
-                <div class="food-items">
-                    <img src="./Images/eggRolls.webp" alt="Egg Rolls image">
-                    <h4 class="food-title">Egg Rolls</h4>
-                    <p class="price">3 for 6.00</p>
-                    <p class="description">Pork, Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with In-house made dipping sauce</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/springRolls.webp" alt="Spring Rolls image">
-                    <h4 class="food-title">Spring Rolls</h4>
-                    <p class="price">3 for 6.00</p>
-                    <p class="description">Pork, Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with In-house made dipping sauce</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/ChickenFriedRice.webp" alt="Chicken Fried Rice image">
-                    <h4 class="food-title">Chicken Fried Rice</h4>
-                    <p class="price">11.99</p>
-                    <p class="description">Chicken, Rice, Egg, Carrots, Green Onions, Thai Seasoning, Thai Sauces</p>
-                </div>
-
-                <div class="food-items">
-                    <img src="./Images/shrimpFriedRice.webp" alt="Shrimp Fried Rice image">
-                    <h4 class="food-title">Shrimp Fried Rice</h4>
-                    <p class="price">13.99</p>
-                    <p class="description">Shrimp, Rice, Egg, Carrots, Green Onions, Thai Seasoning, Thai Sauces</p>
-                </div>
-            </div>
-            </div>
-            <p class="avail-comment">*******Menu subject to change based on ingredient availability********</p>
-        </div>
-<!------------ Contact us Section --------------->
-        <div class="contact-container" id="contact-section">
-            <div class="contact-info">
-                <h2>Contact Us</h2>
-                <h4>Visit Us!</h4>
-                <p>Follow us on social media and keep checking our events to see when we're in your area.</p>
-                <p>We can't wait to see you!</p>
-                <h4>Siri's Me Kwam Sook Thai Food</h4>
-                <p>1001 Blaine Street, Caldwell, Idaho 83605</p>
-                <p>986.213.8267</p>
-                <button type="button" class="Schedule-btn">Contact Us</button>
-            </div>
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.254877137415!2d-116.6888729242789!3d43.66366875175433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54afb40e096dd2b1%3A0xd1b0e82716f04120!2s1001%20Blaine%20St%2C%20Caldwell%2C%20ID%2083605!5e0!3m2!1sen!2sus!4v1696471416058!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-
-        </div>
-    </body>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="contact__info">
+        <h2 class="contact__title">Contact Us</h2>
+        <p class="contact__subtitle">Visit Us!</p>
+        <p class="contact__text">
+          Follow us on social media and check our events to see when we're in
+          your area.
+        </p>
+        <p class="contact__text">We can't wait to see you!</p>
+        <p class="contact__location">
+          Siri's Me Kwam Sook Thai Food<br />1001 Blaine Street, Caldwell, Idaho
+          83605<br />986.213.8267
+        </p>
+        <button class="contact__button">Contact Us</button>
+      </div>
+      <div class="contact__map">
+        <iframe
+          class="contact__iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.254877137415!2d-116.6888729242789!3d43.66366875175433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54afb40e096dd2b1%3A0xd1b0e82716f04120!2s1001%20Blaine%20St%2C%20Caldwell%2C%20ID%2083605!5e0!3m2!1sen!2sus!4v1696471416058!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <script type="module" src="./scripts/script.js"></script>
+  </body>
 </html>

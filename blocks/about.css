@@ -1,0 +1,53 @@
+.about {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  
+  .about__content {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    gap: 45px;
+    margin: 0 auto;
+  }
+  
+  .about__text {
+    text-align: left;
+    font-family: 'PT Sans', Georgia, serif;
+    color: rgb(108, 125, 112);
+  }
+  
+  .about__title {
+    font-size: 48px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .about__title::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #c4b8b8;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .about__block {
+    flex: 1;
+    max-width: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 22px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about__content {
+      flex-direction: column;
+      width: 90%;
+    }
+  }
+  

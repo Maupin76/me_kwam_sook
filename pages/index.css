@@ -1,3 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --font-headings: 'Fjalla One', sans-serif;
+  --font-body: 'PT Sans', Georgia, serif;
+  /* --font-header-title: Italiana, Georgia, serif; */ /* No longer used after font unification */
+
+  --color-primary-green: #118A06;
+  --color-hero-bg: #1ED90DE6; /* Greenish overlay with alpha */
+  --color-text-dark: #333;
+  --color-text-about: var(--color-text-dark); /* Updated to use the darker, compliant color */
+  --color-text-light: white;
+  --color-button-bg-dark: black; /* Retained for now, though hero button changed */
+  
+  --color-bg-light-gray: #F6F6F6; /* Used in nav, contact */
+  --color-border-accent: #c4b8b8; /* Title underlines */
+
+  --shadow-text: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-box: 0 2px 4px rgba(0, 0, 0, 0.1); /* From old .nav__bar, might not be used */
+}
+
 @import url('../vendor/normalize.css');
 @import url('../blocks/header.css');
 @import url('../blocks/nav.css');
@@ -5,3 +31,11 @@
 @import url('../blocks/about.css');
 @import url('../blocks/menu.css');
 @import url('../blocks/contact.css');
+@import url('../blocks/footer.css');
+
+/* Custom focus indicators for accessibility */
+*:focus-visible {
+  outline: 3px solid var(--color-primary-green, #118A06);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px var(--color-bg-light-gray, #F6F6F6), 0 0 5px var(--color-primary-green, #118A06); /* Inner and outer glow */
+}

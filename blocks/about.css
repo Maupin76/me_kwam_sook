@@ -1,6 +1,6 @@
 .about {
     text-align: center;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: var(--font-headings);
   }
   
   .about__content {
@@ -13,8 +13,8 @@
   
   .about__text {
     text-align: left;
-    font-family: 'PT Sans', Georgia, serif;
-    color: rgb(108, 125, 112);
+    font-family: var(--font-body);
+    color: var(--color-text-dark);
   }
   
   .about__title {
@@ -28,7 +28,7 @@
     display: block;
     width: 80px;
     height: 2px;
-    background-color: #c4b8b8;
+    background-color: var(--color-border-accent);
     position: absolute;
     bottom: 0;
     left: 50%;

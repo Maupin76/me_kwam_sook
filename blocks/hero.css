@@ -9,7 +9,7 @@
   
   .hero__content {
     position: absolute;
-    background-color: #1ED90DE6;
+    background-color: var(--color-hero-bg);
     text-align: center;
     align-content: center;
     width: 500px;
@@ -21,40 +21,41 @@
   }
   
   .hero__heading {
-    color: black;
+    color: var(--color-button-bg-dark); /* Using black from button bg for this text */
     margin: 20px 20px;
     font-size: 45px;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: var(--font-headings);
     text-transform: uppercase;
-    font-weight: 1;
+    font-weight: 1; /* Assuming Fjalla One has appropriate weight or this is intentional */
   }
   
   .hero__subtext {
-    color: black;
-    font-family: 'PT Sans', Georgia, serif;
+    color: var(--color-button-bg-dark); /* Using black from button bg for this text */
+    font-family: var(--font-body);
     font-size: 22px;
   }
   
   .hero__button {
     display: inline-block;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: var(--color-primary-green);
+    color: var(--color-text-light);
     width: 200px;
     height: 56px;
-    line-height: 56px;
+    /* line-height: 56px; */ /* Text should center vertically by default with fixed height */
     margin: 0 10px;
     border-radius: 5px;
     border: none;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: var(--font-headings);
     font-size: 22px;
     text-transform: uppercase;
+    font-weight: bold; /* Added for consistency */
     text-decoration: none;
     cursor: pointer;
   }
   
   .hero__button:hover {
-    background-color: #333;
+    background-color: var(--color-text-dark); /* KEEPING hover for now, can be primary-darker green */
   }
   
   /* Responsive */

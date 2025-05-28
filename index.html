@@ -21,54 +21,52 @@
 <body>
 
   <!-- Header -->
-  <div class="nav__bar">
-    <header class="header">
-      <div class="header__title-bar">
-        <h1 class="header__title">Siri's ME KWAM SOOK Thai Food</h1>
-        <p class="header__phone">208.965.1944</p>
-      </div>
-    </header>
-
+  <header class="header">
+    <div class="header__title-bar">
+      <h1 class="header__title">Siri's ME KWAM SOOK Thai Food</h1>
+      <p class="header__phone"><a href="tel:+12089651944">208.965.1944</a></p>
+    </div>
     <!-- Navigation -->
     <nav class="nav">
       <ul class="nav__menu">
-        <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+        <li class="nav__item"><a class="nav__link" href="#" aria-current="page">Home</a></li>
         <li class="nav__item"><a class="nav__link" href="#menu">Menu</a></li>
         <li class="nav__item"><a class="nav__link" href="https://order.toasttab.com/online/mekwamsook">Order Online</a></li>
         <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
         <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
       </ul>
     </nav>
-  </div>
+  </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="hero__content">
-      <h2 class="hero__heading">Authentic and Fresh Thai Food To Go!</h2>
-      <p class="hero__subtext">Find us in a location near you!</p>
-      <a href="https://order.toasttab.com/online/mekwamsook" class="hero__button hero__button_type_order">Order Online</a>
-      <button class="hero__button hero__button_type_schedule">Our Schedule</button>
-    </div>
-  </section>
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__content">
+        <h2 class="hero__heading">Authentic and Fresh Thai Food To Go!</h2>
+        <p class="hero__subtext">Find us in a location near you!</p>
+        <a href="https://order.toasttab.com/online/mekwamsook" class="hero__button hero__button_type_order">Order Online</a>
+        <a href="#schedule" class="hero__button hero__button_type_schedule">Our Schedule</a>
+      </div>
+    </section>
 
-  <!-- Menu -->
-  <section class="menu" id="menu">
-    <h2 class="menu__title">Menu</h2>
-    <p class="menu__note">Protein Prices: Chicken - $11.99, Pork - $11.99, Beef - $13.99, Shrimp - $13.99, Crispy Pork - $13.99</p>
+    <!-- Menu -->
+    <section class="menu" id="menu">
+      <h2 class="menu__title">Menu</h2>
+      <p class="menu__note">Protein Prices: Chicken - $11.99, Pork - $11.99, Beef - $13.99, Shrimp - $13.99, Crispy Pork - $13.99</p>
 
     <div class="menu__group menu__group_type_main">
       <h3 class="menu__subtitle">Main Dishes</h3>
-      <div class="menu__grid" id="main-dishes"></div>
+      <ul class="menu__grid" id="main-dishes"></ul>
     </div>
 
     <div class="menu__group menu__group_type_soups">
       <h3 class="menu__subtitle">Soups</h3>
-      <div class="menu__grid" id="soups"></div>
+      <ul class="menu__grid" id="soups"></ul>
     </div>
 
     <div class="menu__group menu__group_type_sides">
       <h3 class="menu__subtitle">Sides</h3>
-      <div class="menu__grid" id="sides"></div>
+      <ul class="menu__grid" id="sides"></ul>
     </div>
 
     <p class="menu__disclaimer">Menu subject to change based on ingredient availability.</p>
@@ -111,18 +109,26 @@
 
   <!-- Contact -->
   <section class="contact" id="contact">
-    <div class="contact__info">
+    <div class="contact__info" id="contact-form">
       <h2 class="contact__title">Contact Us</h2>
       <p class="contact__subtitle">Visit Us!</p>
       <p class="contact__text">Follow us on social media and check our events to see when we're in your area.</p>
       <p class="contact__text">We can't wait to see you!</p>
-      <p class="contact__location">Siri's Me Kwam Sook Thai Food<br/>1001 Blaine Street, Caldwell, Idaho 83605<br/>986.213.8267</p>
-      <button class="contact__button">Contact Us</button>
+      <address class="contact__location">
+        Siri's Me Kwam Sook Thai Food<br/>
+        1001 Blaine Street, Caldwell, Idaho 83605<br/>
+        <a href="tel:+19862138267">986.213.8267</a>
+      </address>
+      <a href="#contact-form" class="contact__button">Contact Us</a>
     </div>
     <div class="contact__map">
-      <iframe class="contact__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.254877137415!2d-116.6888729242789!3d43.66366875175433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54afb40e096dd2b1%3A0xd1b0e82716f04120!2s1001%20Blaine%20St%2C%20Caldwell%2C%20ID%2083605!5e0!3m2!1sen!2sus!4v1696471416058!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe class="contact__iframe" title="Google Maps view of Siri's Me Kwam Sook location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.254877137415!2d-116.6888729242789!3d43.66366875175433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54afb40e096dd2b1%3A0xd1b0e82716f04120!2s1001%20Blaine%20St%2C%20Caldwell%2C%20ID%2083605!5e0!3m2!1sen!2sus!4v1696471416058!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2019-2025 Siri's Me Kwam Sook. All Rights Reserved.</p>
+  </footer>
   <script type="module" src="./scripts/script.js"></script>
 
 

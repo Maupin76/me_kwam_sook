@@ -1,0 +1,8 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--color-bg-light-gray, #f0f0f0); /* Use a variable or a fallback */
+  color: var(--color-text-dark, #333);
+  font-size: 0.9em;
+  border-top: 1px solid var(--color-border-accent, #ddd);
+}

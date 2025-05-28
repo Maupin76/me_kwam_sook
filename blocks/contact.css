@@ -2,26 +2,26 @@
     display: flex;
     justify-content: space-between;
     text-align: left;
-    background-color: #F6F6F6;
+    background-color: var(--color-bg-light-gray);
   }
   
   .contact__info {
-    margin-left: 150px;
+    margin: 50px 20px; /* Adjusted for better responsiveness */
     font-size: 20px;
-    width: 50%;
+    width: 50%; /* This width will apply within the new margins */
     box-sizing: border-box;
-    padding: 0 20px;
+    /* padding: 0 20px; */ /* The new margin includes side spacing, so padding might be redundant or can be adjusted if needed */
   }
   
   .contact__title {
     font-size: 48px;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: var(--font-headings);
   }
   
   .contact__subtitle,
   .contact__text,
   .contact__location {
-    font-family: 'PT Sans', Georgia, serif;
+    font-family: var(--font-body);
   }
   
   .contact__button {
@@ -29,15 +29,16 @@
     text-align: center;
     margin-left: 0;
     margin-right: auto;
-    background-color: #118A06;
-    color: white;
+    background-color: var(--color-primary-green);
+    color: var(--color-text-light);
     width: 200px;
     height: 56px;
     border-radius: 5px;
     border: none;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: var(--font-headings);
     font-size: 22px;
     text-transform: uppercase;
+    font-weight: bold;
   }
   
   .contact__map {
